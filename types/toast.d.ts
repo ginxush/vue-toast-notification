@@ -15,7 +15,7 @@ export type ToastPosition =
 export type ToastType = 'success' | 'info' | 'error' | 'warning' | 'default'
 
 export interface ToastProps {
-  message: string,
+  message?: string,
   type?: ToastType | string,
   position?: ToastPosition,
   duration?: number,
